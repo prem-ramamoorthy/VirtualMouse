@@ -53,7 +53,7 @@ while(True) :
             clocx = plocx + (x3 - plocx ) / smoothening
             clocy = plocy + (y3 - plocy ) / smoothening
             
-            autopy.mouse.move(wscrn - clocx , plocy)
+            autopy.mouse.move(wscrn - clocx , clocy)
             cv.circle(frame , (x1,y1) , 10 , (0,0,255) , -1)
             
             plocx , plocy = clocx , clocy
